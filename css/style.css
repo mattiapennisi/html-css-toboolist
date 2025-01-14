@@ -1,5 +1,5 @@
 :root {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
     --body-bg: #f6f8f9;
     --button-pressed: #47adf1;
     --text-color: #444851;
@@ -72,7 +72,6 @@ li {
 
 .list-title {
     font-weight: 700;
-
 }
 
 .list-item {
@@ -82,25 +81,34 @@ li {
 
 .down-triangle {
     display: inline-block;
-    height: 5px;
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    font-size: 0.67rem;
 }
 
 .check {
-    border: 1px solid green;
-    color: green;
-    border-radius: 50%;
-    padding: 3px;
-    height: 16px;
-    width: 16px;
+    border: 1px solid #00c692;
+    color: #00c692;
+    border-radius: 50%; 
+    height: 14px;
+    width: 14px;
+    font-size: 0.5rem;
+    font-weight: 900;
+    padding: 3px 4px;
+    margin-right: 10px;
 }
 
 .cross {
-    border: 1px solid red;
-    color: red;
+    border: 1px solid #ec645d;
+    color: #ec645d;
     border-radius: 50%;
-    padding: 3px;
-    height: 16px;
-    width: 16px;
+    height: 14px;
+    width: 14px;
+    font-size: 0.5rem;
+    font-weight: 900;
+    padding: 3px 4px;
+    margin-right: 10px;
 }
 
 .tag-editorial {
@@ -109,6 +117,7 @@ li {
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
+    margin-left: 10px;
 }
 
 .tag-q1goals {
@@ -117,6 +126,7 @@ li {
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
+    margin-left: 10px;
 }
 
 .tag-recruiting {
@@ -125,6 +135,7 @@ li {
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
+    margin-left: 10px;
 }
 
 .tag-mobile {
@@ -133,6 +144,7 @@ li {
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
+    margin-left: 10px;
 }
 
 .tag-website {
@@ -141,6 +153,7 @@ li {
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
+    margin-left: 10px;
 }
 
 .tag-sales {
@@ -149,4 +162,5 @@ li {
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
+    margin-left: 10px;
 }
