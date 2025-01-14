@@ -84,7 +84,7 @@ li {
     height: 14px;
     width: 14px;
     display: inline-block;
-    font-size: 0.67rem;
+    margin-right: 5px;
 }
 
 .check {
