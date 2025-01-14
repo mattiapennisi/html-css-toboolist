@@ -24,7 +24,7 @@ header {
 
 #page-title {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 1000;
     margin: auto 10px;
 }
 
@@ -71,12 +71,12 @@ li {
 }
 
 .list-title {
-    font-weight: 700;
+    font-weight: 1000;
 }
 
 .list-item {
     margin-left: 5px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .down-triangle {
@@ -118,6 +118,7 @@ li {
     color: white;
     font-size: 0.7rem;
     margin-left: 10px;
+    font-weight: 400;
 }
 
 .tag-q1goals {
@@ -127,6 +128,7 @@ li {
     color: white;
     font-size: 0.7rem;
     margin-left: 10px;
+    font-weight: 400;
 }
 
 .tag-recruiting {
@@ -136,6 +138,7 @@ li {
     color: white;
     font-size: 0.7rem;
     margin-left: 10px;
+    font-weight: 400;
 }
 
 .tag-mobile {
@@ -145,6 +148,7 @@ li {
     color: white;
     font-size: 0.7rem;
     margin-left: 10px;
+    font-weight: 400;
 }
 
 .tag-website {
@@ -154,6 +158,7 @@ li {
     color: white;
     font-size: 0.7rem;
     margin-left: 10px;
+    font-weight: 400;
 }
 
 .tag-sales {
@@ -163,4 +168,5 @@ li {
     color: white;
     font-size: 0.7rem;
     margin-left: 10px;
+    font-weight: 400;
 }
