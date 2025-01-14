@@ -1,0 +1,168 @@
+:root {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    --body-bg: #f6f8f9;
+    --button-pressed: #47adf1;
+    --text-color: #444851;
+    --tag-editorial: #45abe9;
+    --tag-q1goals: #9c72e4;
+    --tag-recruiting: #64c0a8;
+    --tag-mobile: #f29e33;
+    --tag-website: #d863a0;
+    --tag-sales: #b0c926;
+}
+
+body {
+    background-color: var(--body-bg);
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+    height: 50px;
+}
+
+#page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: auto 10px;
+}
+
+#main-tab {
+    background-color: white;
+    width: 70%;
+    margin: 40px auto 15px;
+    border-radius: 5px;
+}
+
+#buttons {
+    padding: 20px 40px 20px;
+    border-bottom: 2px solid var(--body-bg);
+}
+
+#main-list {
+    padding: 10px 40px 10px 40px;
+    color: var(--text-color);
+}
+
+#btn-task {
+    background-color: var(--button-pressed);
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: white;
+    font-size: 0.7rem;
+    border: 1px;
+}
+
+#btn-section {
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: #b3b3b4;
+    border: 1px solid #b3b3b4;
+    font-size: 0.7rem;
+}
+
+ul {
+    margin: 30px 0px;
+}
+
+li {
+    margin: 20px 0px;
+}
+
+.list-title {
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.list-item {
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.down-triangle {
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    display: inline-block;
+    font-size: 0.67rem;
+}
+
+.check {
+    border: 1px solid #00c692;
+    color: #00c692;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    font-size: 0.5rem;
+    font-weight: 900;
+    padding: 3px 4px;
+    margin-right: 10px;
+}
+
+.cross {
+    border: 1px solid #ec645d;
+    color: #ec645d;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    font-size: 0.5rem;
+    font-weight: 900;
+    padding: 3px 4px;
+    margin-right: 10px;
+}
+
+.tag-editorial {
+    background-color: var(--tag-editorial);
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 10px;
+}
+
+.tag-q1goals {
+    background-color: var(--tag-q1goals);
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 10px;
+}
+
+.tag-recruiting {
+    background-color: var(--tag-recruiting);
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 10px;
+}
+
+.tag-mobile {
+    background-color: var(--tag-mobile);
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 10px;
+}
+
+.tag-website {
+    background-color: var(--tag-website);
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 10px;
+}
+
+.tag-sales {
+    background-color: var(--tag-sales);
+    border-radius: 10px;
+    padding: 7px 10px;
+    color: white;
+    font-size: 0.7rem;
+    margin-left: 10px;
+}

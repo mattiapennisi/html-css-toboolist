@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toboolist</title>
+    <link rel="stylesheet" href="css/resets.css">
+    <link rel="stylesheet" href="css/bonus.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <img id="logo-image" src="img/Logo.png" alt="Toboolist logo">
+        <h1 id="page-title">Toboolist</h1>
+    </header>
+
+    <!-- Main -->
+    <main id="main-tab">
+
+        <!-- Buttons section -->
+        <section id="buttons">
+            <button id="btn-task">Add Task</button>
+            <button id="btn-section">Add Section</button>
+        </section>
+
+        <!-- Main list section-->
+        <section id="main-list">
+            <details>
+                <!-- New Task list -->
+                <summary class="list-title">
+                    New Task
+                </summary>
+                <ul>
+                    <li class="list-item">
+                        <span class="check">&#10004;</span>Quaterly Newsletter<span
+                            class="tag-editorial">Editorial</span>
+                    </li>
+                </ul>
+            </details>
+
+            <!-- Today list -->
+            <details>
+                <summary class="list-title">Today
+                </summary>
+                <ul>
+                    <li class="list-item">
+                        <span class="check">&#10004;</span>Recruiting blog post<span
+                            class="tag-editorial">Editorial</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="list-item">
+                        <span class="check">&#10004;</span>Mobile app launch<span class="tag-q1goals">Q1
+                            Goals</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="list-item">
+                        <span class="cross">&#10006;</span>Interview John H.<span
+                            class="tag-recruiting">Recruiting</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="list-item">
+                        <span class="check">&#10004;</span>Summit update to mobile upfronts<span
+                            class="tag-mobile">Mobile</span>
+                    </li>
+                </ul>
+            </details>
+
+            <!-- Upcoming list -->
+            <details>
+                <summary class="list-title">Upcoming
+                </summary>
+                <ul>
+                    <li class="list-item">
+                        <span class="cross">&#10006;</span>Schedule meeting with Alex
+                    </li>
+                </ul>
+                <ul>
+                    <li class="list-item">
+                        <span class="check">&#10004;</span>Homepage refresh<span class="tag-website">Website</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="list-item">
+                        <span class="check">&#10004;</span>Onboard new Sales team members<span
+                            class="tag-sales">Sales</span>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="list-item">
+                        <span class="check">&#10004;</span>Review editorial calendar<span
+                            class="tag-editorial">Editorial</span>
+                    </li>
+                </ul>
+            </details>
+        </section>
+    </main>
+</body>
+
+</html>
