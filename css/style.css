@@ -1,0 +1,26 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    --body-bg: #ffffff;
+    --main-bg: #f6f8f9;
+    --button-pressed: #47adf1;
+    --text-color: #444851;
+    --tag-editorial: #45abe9;
+    --tag-q1goals: #9c72e4;
+    --tag-recruiting: #64c0a8;
+    --tag-mobile: #f29e33;
+    --tag-website: #d863a0;
+    --tag-sales: #b0c926;
+}
+
+header {
+    padding: 10px 20px;
+    display: flex;
+    height: 50px;
+}
+
+#page-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: auto 10px;
+    
+}
