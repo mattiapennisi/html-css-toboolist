@@ -113,7 +113,7 @@ li {
 
 .tag-editorial {
     background-color: var(--tag-editorial);
-    border-radius: 10px;
+    border-radius: 11px;
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
@@ -122,7 +122,7 @@ li {
 
 .tag-q1goals {
     background-color: var(--tag-q1goals);
-    border-radius: 10px;
+    border-radius: 11px;
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
@@ -131,7 +131,7 @@ li {
 
 .tag-recruiting {
     background-color: var(--tag-recruiting);
-    border-radius: 10px;
+    border-radius: 11px;
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
@@ -140,7 +140,7 @@ li {
 
 .tag-mobile {
     background-color: var(--tag-mobile);
-    border-radius: 10px;
+    border-radius: 11px;
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
@@ -149,7 +149,7 @@ li {
 
 .tag-website {
     background-color: var(--tag-website);
-    border-radius: 10px;
+    border-radius: 11px;
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
@@ -158,7 +158,7 @@ li {
 
 .tag-sales {
     background-color: var(--tag-sales);
-    border-radius: 10px;
+    border-radius: 11px;
     padding: 7px 10px;
     color: white;
     font-size: 0.7rem;
